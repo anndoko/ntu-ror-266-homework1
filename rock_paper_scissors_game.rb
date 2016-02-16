@@ -45,19 +45,19 @@ begin
     puts "COMPUTER: #{computer_throw}"
     puts win_message
   elsif (user_throw == "S") && (computer_throw == "P")
-  	puts "COMPUTER: #{computer_throw}"
-  	puts win_message
+    puts "COMPUTER: #{computer_throw}"
+    puts win_message
 
   # Lose
   elsif (user_throw == "R") && (computer_throw == "P")
-  	puts "COMPUTER: #{computer_throw}"
-  	puts lose_message 
+    puts "COMPUTER: #{computer_throw}"
+    puts lose_message 
   elsif (user_throw == "P") && (computer_throw == "S")
-  	puts "COMPUTER: #{computer_throw}"
-  	puts lose_message
+    puts "COMPUTER: #{computer_throw}"
+    puts lose_message
   elsif (user_throw == "S") && (computer_throw == "R")
-  	puts "COMPUTER: #{computer_throw}"
-  	puts lose_message
+    puts "COMPUTER: #{computer_throw}"
+    puts lose_message
 
   end
 
